@@ -14,8 +14,7 @@ const Navbar = () => {
 
   return (
     <div style={{ fontFamily: "Montserrat, sans-serif" }}>
-      <nav className="bg-black relative z-10 ">
-        {" "}
+      <nav className="bg-black relative z-10 pb-7 ">
         {/* Set a z-index to ensure the navbar stays above the background */}
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 lg:relative lg:top-4">
           <Link
@@ -78,7 +77,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/projects"
                   className="block py-2 px-3 text-white rounded hover:text-blue-500"
                 >
                   Projects
@@ -86,7 +85,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/"
                   className="block py-2 px-3 text-white rounded hover:text-blue-500"
                 >
                   Resume
@@ -94,7 +93,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/about"
                   className="block py-2 px-3 text-white rounded hover:text-blue-500"
                 >
                   About
@@ -102,7 +101,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/contact"
                   className="block py-2 px-3 text-white rounded hover:text-blue-500"
                 >
                   Contact
