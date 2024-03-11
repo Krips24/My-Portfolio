@@ -3,14 +3,16 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <section className="text-gray-400 bg-gray-900 body-font relative">
-        <h1
-          style={{ fontFamily: "Montserrat, sans-serif" }}
-          className="text-4xl text-white text-center relative top-11"
-        >
-          Contact Me
-        </h1>
-
+      <section
+        style={{ fontFamily: "Montserrat, sans-serif" }}
+        className="text-gray-400 bg-gray-950 body-font relative"
+      >
+        <div className="flex justify-center relative top-10  max-sm:top-16">
+          <h1 className="text-white text-4xl text-center inline">Contact</h1>
+          <h1 className="text-orange-500 text-4xl text-center inline ml-2">
+            Me
+          </h1>
+        </div>
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
           <div
             style={{ fontFamily: "Montserrat, sans-serif" }}
@@ -34,7 +36,7 @@ const page = () => {
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   ADDRESS
                 </h2>
-                <p className="mt-1">BMT Layout, Mathikere, Bangalore</p>
+                <p className="mt-1">BMT Layout, Mathikere, Bengaluru</p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
@@ -57,10 +59,10 @@ const page = () => {
           </div>
           <div className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
             <h2 className="text-white text-lg mb-1 font-medium title-font">
-              Feedback
+              Get in touch.
             </h2>
             <p className="leading-relaxed mb-5">
-              Your feedback matters! Let me know how I can improve.
+              Ready to collaborate? Let&apos;s make magic happen.
             </p>
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -101,7 +103,7 @@ const page = () => {
                 defaultValue={""}
               />
             </div>
-            <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 transition duration-200 rounded text-lg">
               Submit
             </button>
           </div>

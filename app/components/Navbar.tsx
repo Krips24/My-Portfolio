@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className="bg-black relative z-10 pb-7 ">
         {/* Set a z-index to ensure the navbar stays above the background */}
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 lg:relative lg:top-4">
-          <Link
+          <a
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
@@ -30,7 +30,7 @@ const Navbar = () => {
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Krapansh
             </span>
-          </Link>
+          </a>
           <button
             onClick={toggleMenu}
             type="button"
@@ -85,7 +85,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="https://drive.google.com/file/d/1oTXarowwYjkVLpwDfamiWhknGHXeYySv/view?usp=sharing"
                   className="block py-2 px-3 text-white rounded hover:text-blue-500"
                 >
                   Resume
