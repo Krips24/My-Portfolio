@@ -102,12 +102,14 @@ const page = () => {
               <div className="w-24 h-full bg-indigo-500" />
             </div>
             <div className="flex flex-wrap flex-row py-6 lg:mb-12  max-sm:mb-12">
-              <h1 className="text-white text-4xl text-center inline  max-sm:text-3xl  max-sm:mb-12">
-                Explore My
-              </h1>
-              <h1 className="text-orange-500 text-4xl text-center inline ml-3 max-sm:text-3xl">
-                Creations
-              </h1>
+              <div className="font-semibold">
+                <h1 className="text-white text-4xl text-center inline  max-sm:text-3xl  max-sm:mb-12">
+                  Explore My
+                </h1>
+                <h1 className="text-orange-500 text-4xl text-center inline ml-3 max-sm:text-3xl">
+                  Creations
+                </h1>
+              </div>
               <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0 lg:relative lg:left-56  max-sm:text-justify">
                 Embark on a journey through innovation as we unveil our
                 groundbreaking project section, where creativity meets purpose.
@@ -243,7 +245,7 @@ const page = () => {
       >
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
-            <div className="mb-6">
+            <div className="mb-6 font-semibold">
               <h1 className="text-white text-4xl text-center inline">My</h1>
               <h1 className="text-orange-500 text-4xl text-center inline ml-2">
                 Skills

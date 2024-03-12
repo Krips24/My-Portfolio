@@ -8,7 +8,7 @@ const page = () => {
         className="bg-black body-font"
       >
         <div className="container px-5 py-24 mx-auto text-center">
-          <div className="mb-10">
+          <div className="mb-10 font-semibold">
             <h1 className="text-white text-4xl text-center inline">About</h1>
             <h1 className="text-orange-500 text-4xl text-center inline ml-2">
               Me
