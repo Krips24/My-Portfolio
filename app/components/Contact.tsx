@@ -68,6 +68,7 @@ const Contact = () => {
                     Name
                   </label>
                   <input
+                    required
                     type="text"
                     id="name"
                     name="name"
@@ -86,6 +87,7 @@ const Contact = () => {
                     Email
                   </label>
                   <input
+                    required
                     type="email"
                     id="email"
                     name="email"
@@ -104,6 +106,7 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
+                    required
                     typeof="text"
                     id="message"
                     name="message"
