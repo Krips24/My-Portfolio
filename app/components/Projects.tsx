@@ -41,7 +41,7 @@ const Projects = () => {
                 Our project entails crafting the company&apos;s official website
                 with dynamic features, boasting a modern aesthetic and
                 innovative functionalities to ensure a seamless and engaging
-                user experience
+                user experience.
               </p>
               <a
                 href="/project1"

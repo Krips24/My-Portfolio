@@ -24,19 +24,17 @@ const Experience = () => {
         <p className="mb-2 font-semibold">Tsalla Aerospace</p>
         <p className="mb-2 text-sm">February 2024 - Present</p>
         <p className="text-sm">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt
-          sit amet felis ac fringilla. Donec ac hendrerit dolor. Fusce
-          sollicitudin odio vitae turpis convallis, et convallis nisi
-          vestibulum. Vivamus volutpat ligula ac dui viverra, in mattis nisl
-          consequat. Brief Description: Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Sed tincidunt sit amet felis ac fringilla. Donec ac
-          hendrerit dolor. Fusce sollicitudin odio vitae turpis convallis, et
-          convallis nisi vestibulum. Vivamus volutpat ligula ac dui viverra, in
-          mattis nisl consequat. Brief Description: Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Sed tincidunt sit amet felis ac
-          fringilla. Donec ac hendrerit dolor. Fusce sollicitudin odio vitae
-          turpis convallis, et convallis nisi vestibulum. Vivamus volutpat
-          ligula ac dui viverra, in mattis nisl consequat.
+          During my immersive internship in web development, I took charge of
+          creating the company&apos;s flagship website utilizing cutting-edge
+          Next.js technology. This endeavor involved crafting a dynamic and
+          visually stunning online platform, equipped with state-of-the-art
+          features, to comprehensively showcase the company&apos;s diverse
+          offerings. Throughout this extensive project, I not only mastered
+          complex technical intricacies but also honed invaluable soft skills
+          such as teamwork, adept time management, and navigating the nuances of
+          a corporate work environment. This experience has significantly
+          broadened my professional horizons and fortified my proficiency in the
+          field.
         </p>
       </div>
 
@@ -46,19 +44,17 @@ const Experience = () => {
         <p className="mb-2 font-semibold">Maven Silicon Pvt. Ltd.</p>
         <p className="mb-2 text-sm">May - July 2023</p>
         <p className="text-sm">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt
-          sit amet felis ac fringilla. Donec ac hendrerit dolor. Fusce
-          sollicitudin odio vitae turpis convallis, et convallis nisi
-          vestibulum. Vivamus volutpat ligula ac dui viverra, in mattis nisl
-          consequat. Brief Description: Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Sed tincidunt sit amet felis ac fringilla. Donec ac
-          hendrerit dolor. Fusce sollicitudin odio vitae turpis convallis, et
-          convallis nisi vestibulum. Vivamus volutpat ligula ac dui viverra, in
-          mattis nisl consequat. Brief Description: Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Sed tincidunt sit amet felis ac
-          fringilla. Donec ac hendrerit dolor. Fusce sollicitudin odio vitae
-          turpis convallis, et convallis nisi vestibulum. Vivamus volutpat
-          ligula ac dui viverra, in mattis nisl consequat.
+          Throughout my internship tenure, I played a pivotal role in the
+          collaborative development of a sophisticated RISC-V processor design,
+          concentrating on crucial microarchitecture components. Employing my
+          expertise in Verilog HDL, I adeptly undertook the coding, simulation,
+          and debugging of RTL to guarantee precise and optimized functionality.
+          Demonstrating an unwavering commitment to excellence, I seamlessly
+          communicated technical progress to peers and supervisors, underscoring
+          my adept problem-solving prowess. Completing the project within the
+          designated internship timeframe underscored my capacity to deliver
+          results with efficiency and efficacy, solidifying my standing as a
+          capable and resourceful team member.
         </p>
       </div>
     </div>

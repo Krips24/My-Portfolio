@@ -72,10 +72,10 @@ const page = () => {
               me to efficiently organize and manipulate data.
             </p>
             <span className="inline-block h-1 w-10 rounded bg-orange-500 mt-8 mb-6" />
-            <h2 className="text-gray-200 font-medium title-font tracking-wider">
+            <h2 className="text-gray-200 font-semibold title-font tracking-wider">
               KRAPANSH SHRIVASTAVA
             </h2>
-            <p className="text-gray-400">Web Developer</p>
+            <p className="text-gray-400 font-semibold">Web Developer</p>
           </div>
         </div>
       </section>

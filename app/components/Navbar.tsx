@@ -67,21 +67,21 @@ const Navbar = () => {
           >
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
               <li>
-                <Link
+                <a
                   href="/"
                   className="block py-2 px-3  rounded md:bg-transparent text-blue-500"
                   aria-current="page"
                 >
                   Home
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="/projects"
                   className="block py-2 px-3 text-white rounded hover:text-blue-500"
                 >
                   Projects
-                </Link>
+                </a>
               </li>
               <li>
                 <Link
@@ -92,20 +92,20 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link
+                <a
                   href="/about"
                   className="block py-2 px-3 text-white rounded hover:text-blue-500"
                 >
                   About
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="/contact"
                   className="block py-2 px-3 text-white rounded hover:text-blue-500"
                 >
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

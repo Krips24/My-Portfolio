@@ -21,11 +21,11 @@ const page = () => {
             </a>
           </div>
           <div className="lg:flex-grow lg:pl-56 flex flex-col lg:items-start lg:text-left items-center text-center  max-sm:text-start">
-            <h1 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-white">
+            <h1 className="title-font sm:text-4xl text-3xl mb-8 font-semibold text-white">
               Tsalla Aerospace
             </h1>
 
-            <p className="inline text-orange-500  max-sm:mr-9">
+            <p className="inline text-orange-500 font-semibold  max-sm:mr-9">
               Creating Tsalla Aerospace&apos;s Online Identity
             </p>
             <p className="mb-8  inline">
@@ -34,7 +34,7 @@ const page = () => {
               effectively.
             </p>
 
-            <p className="inline text-orange-500">
+            <p className="inline text-orange-500 font-semibold">
               Building Dynamic Website for User Engagement
             </p>
             <p className="mb-8 leading-relaxed">
@@ -44,7 +44,7 @@ const page = () => {
               the recipes for you.
             </p>
 
-            <p className="inline text-orange-500">
+            <p className="inline text-orange-500 font-semibold">
               Full-Stack Project: Robust UI & Database Integration
             </p>
             <p className="mb-8 leading-relaxed">
@@ -52,7 +52,7 @@ const page = () => {
               functionalities to enhance user experience and engagement.
             </p>
 
-            <p className="inline text-orange-500">
+            <p className="inline text-orange-500 font-semibold">
               Global Audience Outreach: Diverse Demographics Targeted
             </p>
             <p className="mb-8 leading-relaxed">
@@ -60,7 +60,7 @@ const page = () => {
               efficient database facilities to ensure seamless performance.
             </p>
 
-            <p className="inline text-orange-500">
+            <p className="inline text-orange-500 font-semibold">
               Global Audience Outreach: Diverse Demographic Targeting
             </p>
             <p className="mb-8 leading-relaxed">
@@ -68,7 +68,7 @@ const page = () => {
               catering to diverse demographics and regions.
             </p>
 
-            <p className="inline text-orange-500">
+            <p className="inline text-orange-500 font-semibold">
               Leading Online Presence with Innovative Design
             </p>
             <p className="mb-8 leading-relaxed">

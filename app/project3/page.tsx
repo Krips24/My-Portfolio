@@ -21,49 +21,60 @@ const page = () => {
             </a>
           </div>
           <div className="lg:flex-grow lg:pl-56 flex flex-col lg:items-start lg:text-left items-center text-center  max-sm:text-start">
-            <h1 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-white">
+            <h1 className="title-font sm:text-4xl text-3xl mb-8 font-semibold text-white">
               MediTrack Web Application
             </h1>
 
-            <p className="inline text-orange-500">Upload Medical Records: </p>
-            <p className="mb-8  inline">
-              Easily upload your important medical records, such as
-              prescriptions, lab results, and medical images. MediTrack allows
-              you to organize and store these records in one secure location.
-            </p>
+            <div>
+              <p className=" text-orange-500 font-semibold">
+                Upload Medical Records:{" "}
+              </p>
+              <p className="mb-8  ">
+                Easily upload your important medical records, such as
+                prescriptions, lab results, and medical images. MediTrack allows
+                you to organize and store these records in one secure location.
+              </p>
 
-            <p className="inline text-orange-500">Access Anytime, Anywhere: </p>
-            <p className="mb-8 leading-relaxed">
-              With MediTrack, you can access your medical records from any
-              device with an internet connection. This flexibility ensures you
-              have your health information readily available when needed,
-              whether at home or on the go.
-            </p>
+              <p className=" text-orange-500 font-semibold">
+                Access Anytime, Anywhere:{" "}
+              </p>
+              <p className="mb-8 leading-relaxed">
+                With MediTrack, you can access your medical records from any
+                device with an internet connection. This flexibility ensures you
+                have your health information readily available when needed,
+                whether at home or on the go.
+              </p>
 
-            <p className="inline text-orange-500">
-              Detailed Nutritional Information:
-            </p>
-            <p className="mb-8 leading-relaxed">
-              Gain insights into the nutritional content of each meal.
-              Organic.in provides detailed information about macros, enabling
-              users to make informed decisions and meet their nutritional
-              requirements.
-            </p>
+              <p className="inline text-orange-500 font-semibold">
+                Detailed Nutritional Information:
+              </p>
+              <p className="mb-8 leading-relaxed">
+                Gain insights into the nutritional content of each meal.
+                Organic.in provides detailed information about macros, enabling
+                users to make informed decisions and meet their nutritional
+                requirements.
+              </p>
 
-            <p className="inline text-orange-500">Secured Authentication: </p>
-            <p className="mb-8 leading-relaxed">
-              MediTrack prioritizes the security of your sensitive medical data.
-              The application features user authentication to ensure that only
-              authorized users can access their records. .
-            </p>
+              <p className="inline text-orange-500 font-semibold">
+                Secured Authentication:{" "}
+              </p>
+              <p className="mb-8 leading-relaxed">
+                MediTrack prioritizes the security of your sensitive medical
+                data. The application features user authentication to ensure
+                that only authorized users can access their records.
+              </p>
 
-            <p className="inline text-orange-500">Beautiful User Interface:</p>
-            <p className="mb-8 leading-relaxed">
-              MediTrack boasts a user-friendly and aesthetically pleasing user
-              interface, making it easy for users to navigate and manage their
-              medical records. The UI is designed to enhance the overall user
-              experience.
-            </p>
+              <p className="inline text-orange-500 font-semibold">
+                Beautiful User Interface:
+              </p>
+              <p className="mb-8 leading-relaxed">
+                MediTrack boasts a user-friendly and aesthetically pleasing user
+                interface, making it easy for users to navigate and manage their
+                medical records. The UI is designed to enhance the overall user
+                experience.
+              </p>
+            </div>
+
             <div className="flex justify-center">
               <a
                 href="https://github.com/Krips24/MediTrack"

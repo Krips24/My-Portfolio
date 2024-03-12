@@ -21,54 +21,59 @@ const page = () => {
             </a>
           </div>
           <div className="lg:flex-grow lg:pl-56 flex flex-col lg:items-start lg:text-left items-center text-center  max-sm:text-start">
-            <h1 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-white">
+            <h1 className="title-font sm:text-4xl text-3xl mb-8 font-semibold text-white">
               Organic.in Web Application
             </h1>
 
-            <p className="inline text-orange-500">
-              AI-Generated Personalized Meal Plans:
-            </p>
-            <p className="mb-8  inline">
-              Organic.in leverages advanced artificial intelligence to craft
-              personalized meal plans tailored to the user&apos;s health and
-              wellness objectives.
-            </p>
+            <div className="">
+              <p className=" text-orange-500 font-semibold">
+                AI-Generated Personalized Meal Plans:
+              </p>
+              <p className="mb-8 ">
+                Organic.in leverages advanced artificial intelligence to craft
+                personalized meal plans tailored to the user&apos;s health and
+                wellness objectives.
+              </p>
 
-            <p className="inline text-orange-500">
-              Comprehensive Recipe Database:
-            </p>
-            <p className="mb-8 leading-relaxed">
-              Explore a vast collection of recipes that align with your dietary
-              preferences and health goals. Whether you&apos;re aiming to lose
-              weight, build muscle, or maintain a balanced diet, Organic.in has
-              the recipes for you.
-            </p>
+              <p className="text-orange-500 font-semibold">
+                Comprehensive Recipe Database:
+              </p>
+              <p className="mb-8 leading-relaxed">
+                Explore a vast collection of recipes that align with your
+                dietary preferences and health goals. Whether you&apos;re aiming
+                to lose weight, build muscle, or maintain a balanced diet,
+                Organic.in has the recipes for you.
+              </p>
 
-            <p className="inline text-orange-500">
-              Detailed Nutritional Information:
-            </p>
-            <p className="mb-8 leading-relaxed">
-              Gain insights into the nutritional content of each meal.
-              Organic.in provides detailed information about macros, enabling
-              users to make informed decisions and meet their nutritional
-              requirements.
-            </p>
+              <p className="inline text-orange-500 font-semibold">
+                Detailed Nutritional Information:
+              </p>
+              <p className="mb-8 leading-relaxed">
+                Gain insights into the nutritional content of each meal.
+                Organic.in provides detailed information about macros, enabling
+                users to make informed decisions and meet their nutritional
+                requirements.
+              </p>
 
-            <p className="inline text-orange-500">
-              Enhance Your Healthy Lifestyle:
-            </p>
-            <p className="mb-8 leading-relaxed">
-              Organic.in is your partner in improving overall well-being. With
-              personalized guidance and insights, users can make informed
-              choices to enhance their healthy lifestyle.
-            </p>
+              <p className="inline text-orange-500 font-semibold">
+                Enhance Your Healthy Lifestyle:
+              </p>
+              <p className="mb-8 leading-relaxed">
+                Organic.in is your partner in improving overall well-being. With
+                personalized guidance and insights, users can make informed
+                choices to enhance their healthy lifestyle.
+              </p>
 
-            <p className="inline text-orange-500">Cook Anywhere, Anytime:</p>
-            <p className="mb-8 leading-relaxed">
-              Access recipes and meal plans on the go. Organic.in ensures that
-              you can make healthy and delicious meals at home or anywhere,
-              making it convenient to stick to your health goals.
-            </p>
+              <p className="inline text-orange-500 font-semibold">
+                Cook Anywhere, Anytime:
+              </p>
+              <p className="mb-8 leading-relaxed">
+                Access recipes and meal plans on the go. Organic.in ensures that
+                you can make healthy and delicious meals at home or anywhere,
+                making it convenient to stick to your health goals.
+              </p>
+            </div>
+
             <div className="flex justify-center">
               <a
                 href="https://github.com/Krips24/Organic.in"

@@ -102,7 +102,7 @@ const page = () => {
               <div className="w-24 h-full bg-indigo-500" />
             </div>
             <div className="flex flex-wrap flex-row py-6 lg:mb-12  max-sm:mb-12">
-              <div className="font-semibold">
+              <div className="font-semibold  max-sm:mb-5">
                 <h1 className="text-white text-4xl text-center inline  max-sm:text-3xl  max-sm:mb-12">
                   Explore My
                 </h1>
@@ -123,21 +123,22 @@ const page = () => {
               <div className="rounded-lg h-64 overflow-hidden">
                 <Link href="/project1">
                   <Image
-                    width={0}
-                    height={0}
+                    width={400}
+                    height={400}
                     alt="content"
-                    className="object-cover object-center h-full w-full hover:transition duration-200 ease-in-out hover:scale-105"
-                    src=""
+                    className="object-cover object-center h-32 w-42 mt-16 hover:transition duration-200 ease-in-out hover:scale-105"
+                    src="/tsallaaerospace.png"
                   />
                 </Link>
               </div>
               <h2 className="text-xl font-medium title-font text-white mt-5">
-                Shooting Stars
+                Tsalla Aerospace
               </h2>
               <p className="text-base leading-relaxed mt-2">
-                Swag shoindxgoitch literally meditation subway tile tumblr
-                cold-pressed. Gastropub street art beard dreamcatcher neutra,
-                ethical XOXO lumbersexual.
+                Our project entails crafting the company&apos;s official website
+                with dynamic features, boasting a modern aesthetic and
+                innovative functionalities to ensure a seamless and engaging
+                user experience.
               </p>
               <a
                 href="/project1"
@@ -161,11 +162,11 @@ const page = () => {
               <div className="rounded-lg h-64 overflow-hidden">
                 <Link href="/project2">
                   <Image
-                    width={0}
-                    height={0}
+                    width={400}
+                    height={400}
                     alt="content"
                     className="object-cover object-center h-full w-full hover:transition duration-200 ease-in-out hover:scale-105"
-                    src=""
+                    src="/organic.jpg"
                   />
                 </Link>
               </div>
@@ -200,11 +201,11 @@ const page = () => {
               <div className="rounded-lg h-64 overflow-hidden">
                 <Link href="/project3">
                   <Image
-                    width={0}
-                    height={0}
+                    width={400}
+                    height={400}
                     alt="content"
                     className="object-cover object-center h-full w-full hover:transition duration-200 ease-in-out hover:scale-105"
-                    src=""
+                    src="/meditrack.jpg"
                   />
                 </Link>
               </div>
