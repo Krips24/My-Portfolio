@@ -38,10 +38,12 @@ const page = () => {
               Building Dynamic Website for User Engagement
             </p>
             <p className="mb-8 leading-relaxed">
-              Explore a vast collection of recipes that align with your dietary
-              preferences and health goals. Whether you&apos;re aiming to lose
-              weight, build muscle, or maintain a balanced diet, Organic.in has
-              the recipes for you.
+              Building a dynamic website for user engagement involves crafting
+              an interactive digital platform that captivates users through
+              personalized experiences and responsive design. By integrating
+              engaging content, interactive features, and seamless navigation,
+              such a website aims to foster meaningful interactions and
+              encourage prolonged user engagement.
             </p>
 
             <p className="inline text-orange-500 font-semibold">

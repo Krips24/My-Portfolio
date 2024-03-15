@@ -46,13 +46,14 @@ const page = () => {
               </p>
 
               <p className="inline text-orange-500 font-semibold">
-                Detailed Nutritional Information:
+                Efficient Database Access for Informed Decisions
               </p>
               <p className="mb-8 leading-relaxed">
-                Gain insights into the nutritional content of each meal.
-                Organic.in provides detailed information about macros, enabling
-                users to make informed decisions and meet their nutritional
-                requirements.
+                Our platform offers a streamlined and efficient database,
+                providing users with easy access to a wealth of organized
+                information. With powerful search capabilities and reliable data
+                management, users can quickly find what they need, improving
+                productivity and decision-making processes.
               </p>
 
               <p className="inline text-orange-500 font-semibold">
