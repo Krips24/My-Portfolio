@@ -19,74 +19,98 @@ const icons = [
   {
     id: 1,
     name: "next.js",
-    icon: <TbBrandNextjs className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <TbBrandNextjs className="text-8xl text-gray-500 hover:text-white transition" />
+    ),
   },
   {
     id: 2,
 
     name: "react.js",
-    icon: <RiReactjsLine className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <RiReactjsLine className="text-8xl text-gray-500 hover:text-white transition duration-3s" />
+    ),
   },
 
   {
     id: 3,
 
     name: "react.js",
-    icon: <FaNodeJs className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <FaNodeJs className="text-8xl text-gray-500 hover:text-white transition duration-3s" />
+    ),
   },
   {
     id: 4,
 
     name: "react.js",
-    icon: <SiExpress className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <SiExpress className="text-8xl text-gray-500 hover:text-white transition duration-3s" />
+    ),
   },
   {
     id: 5,
 
     name: "react.js",
-    icon: <DiMongodb className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <DiMongodb className="text-8xl text-gray-500 hover:text-white transition duration-3s" />
+    ),
   },
   {
     id: 6,
 
     name: "react.js",
-    icon: <SiTailwindcss className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <SiTailwindcss className="text-8xl text-gray-500 hover:text-white transition duration-3s" />
+    ),
   },
   {
     id: 7,
 
     name: "react.js",
-    icon: <DiJavascript className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <DiJavascript className="text-8xl text-gray-500 hover:text-white transition duration-3s" />
+    ),
   },
   {
     id: 8,
 
     name: "react.js",
-    icon: <FaHtml5 className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <FaHtml5 className="text-8xl text-gray-500 hover:text-white transition duration-3s" />
+    ),
   },
   {
     id: 9,
 
     name: "react.js",
-    icon: <IoLogoCss3 className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <IoLogoCss3 className="text-8xl text-gray-500 hover:text-white transition duration-3s" />
+    ),
   },
   {
     id: 10,
 
     name: "react.js",
-    icon: <FaGitAlt className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <FaGitAlt className="text-8xl text-gray-500 hover:text-white transition duration-3s" />
+    ),
   },
   {
     id: 11,
 
     name: "react.js",
-    icon: <BiLogoTypescript className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <BiLogoTypescript className="text-8xl text-gray-500 hover:text-white transition duration-3s" />
+    ),
   },
   {
     id: 12,
 
     name: "react.js",
-    icon: <SiCanva className="text-8xl text-white animate-pulse" />,
+    icon: (
+      <SiCanva className="text-8xl text-gray-500 hover:text-white transition duration-3s" />
+    ),
   },
 ];
 const page = () => {

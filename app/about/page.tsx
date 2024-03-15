@@ -75,7 +75,7 @@ const page = () => {
             <h2 className="text-gray-200 font-semibold title-font tracking-wider">
               KRAPANSH SHRIVASTAVA
             </h2>
-            <p className="text-gray-400 font-semibold">Web Developer</p>
+            <p className="text-gray-400 font-semibold ">Web Developer</p>
           </div>
         </div>
       </section>
