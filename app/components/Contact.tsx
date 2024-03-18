@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -51,7 +52,13 @@ const Contact = () => {
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="max-sm:text-3xl lg:text-4xl font-medium title-font mb-4 text-orange-500">
-              Contact Me
+              <TypeAnimation
+                sequence={["Contact Me", 1000, "", 1000]}
+                wrapper="span"
+                speed={50}
+                style={{ fontSize: "1em", display: "inline-block" }}
+                repeat={Infinity}
+              />
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
               Ready to collaborate? Let&apos;s make magic happen.

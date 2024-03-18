@@ -73,7 +73,7 @@ const Footer = () => {
                 <circle cx="4" cy="4" r="2" stroke="none"></circle>
               </svg>
             </a>
-            <p>| © 2024 Krapansh. All Rights Reserved.</p>
+            <p>| Made By Krapansh </p>
           </span>
         </div>
       </footer>
