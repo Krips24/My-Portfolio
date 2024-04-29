@@ -10,11 +10,11 @@ const page = () => {
       >
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10 lg:relative lg:left-16">
-            <a href="https://aerospace-two.vercel.app/">
+            <a href="https://careers-in.vercel.app/">
               <Image
                 className="object-cover object-center rounded hover:transition duration-200 ease-in-out hover:scale-105"
                 alt="hero"
-                src="/tsallaaerospace.png"
+                src="/careers.jpg"
                 width={720}
                 height={600}
               />
@@ -22,68 +22,85 @@ const page = () => {
           </div>
           <div className="lg:flex-grow lg:pl-56 flex flex-col lg:items-start lg:text-left items-center text-center  max-sm:text-start">
             <h1 className="title-font sm:text-4xl text-3xl mb-8 font-semibold text-white">
-              Tsalla Aerospace
+              Careers.in Job Portal
             </h1>
 
             <p className="inline text-orange-500 font-semibold  max-sm:mr-9">
-              Creating Tsalla Aerospace&apos;s Online Identity
+              Seamless Job Management:
             </p>
             <p className="mb-8  inline">
-              Develop Tsalla Aerospace&apos;s official website, aimed at
-              representing the company&apos;s brand identity and offerings
-              effectively.
+              1. Seamless Job Management: Our Next.js-powered job portal
+              simplifies job posting and deletion processes, ensuring a seamless
+              experience for employers. With just a few clicks, jobs can be
+              effortlessly posted online and promptly removed when vacancies are
+              filled, optimizing efficiency and user satisfaction.
             </p>
 
             <p className="inline text-orange-500 font-semibold">
-              Building Dynamic Website for User Engagement
+              Intuitive UI/UX Design:
             </p>
             <p className="mb-8 leading-relaxed">
-              Building a dynamic website for user engagement involves crafting
-              an interactive digital platform that captivates users through
-              personalized experiences and responsive design. By integrating
-              engaging content, interactive features, and seamless navigation,
-              such a website aims to foster meaningful interactions and
-              encourage prolonged user engagement.
+              Experience a user-friendly interface tailored for quick and
+              efficient job searches. Our platform features intuitive design
+              elements that enable users to filter through job listings
+              effortlessly, helping them find their desired positions with ease
+              and speed.
             </p>
 
             <p className="inline text-orange-500 font-semibold">
-              Full-Stack Project: Robust UI & Database Integration
+              Comprehensive Job Descriptions:
             </p>
             <p className="mb-8 leading-relaxed">
-              Create a dynamic website with contemporary features and
-              functionalities to enhance user experience and engagement.
+              Dive into detailed and engaging job descriptions for each position
+              listed on our portal. Candidates can explore comprehensive
+              information about specific job opportunities, empowering them to
+              make informed decisions and enhancing their overall job-seeking
+              experience.
             </p>
 
             <p className="inline text-orange-500 font-semibold">
-              Global Audience Outreach: Diverse Demographics Targeted
+              Simplified Application Process:
             </p>
             <p className="mb-8 leading-relaxed">
-              Implement a full-stack project, incorporating robust UI design and
-              efficient database facilities to ensure seamless performance.
+              Applying for a job has never been easier. Our streamlined
+              application process eliminates unnecessary steps, making it
+              convenient for candidates to submit their applications swiftly and
+              efficiently, maximizing their chances of success.
             </p>
 
             <p className="inline text-orange-500 font-semibold">
-              Global Audience Outreach: Diverse Demographic Targeting
+              Robust Data Management:
             </p>
             <p className="mb-8 leading-relaxed">
-              Focus on outreach strategies to attract a global audience,
-              catering to diverse demographics and regions.
+              Leveraging PostgreSQL database technology, our platform ensures
+              secure and reliable data storage. Employers can trust that their
+              job listings and candidate information are stored safely,
+              maintaining the integrity of the recruitment process.
             </p>
 
             <p className="inline text-orange-500 font-semibold">
-              Leading Online Presence with Innovative Design
+              Enhanced Security and Administration:
             </p>
             <p className="mb-8 leading-relaxed">
-              Strive to establish Tsalla Aerospace&apos;s online presence as a
-              leading player in the aerospace industry, leveraging innovative
-              web technologies and captivating design elements.
+              Benefit from secured login/signup mechanisms and authenticated
+              access to the admin panel. Administrators have full control over
+              job postings, deletions, and other essential actions, safeguarding
+              the platform against unauthorized access and ensuring smooth
+              operations.
             </p>
-            <div className="flex justify-center">
+            <div className="flex justify-center space-x-5">
               <a
-                href="https://aerospace-two.vercel.app/"
+                href="https://careers-in.vercel.app/"
                 className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 transition duration-150 rounded text-lg"
               >
                 Live Link
+              </a>
+
+              <a
+                href="https://github.com/Krips24/Careers.in/"
+                className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 transition duration-150 rounded text-lg"
+              >
+                Github
               </a>
             </div>
           </div>
