@@ -150,19 +150,19 @@ const page = () => {
                     width={400}
                     height={400}
                     alt="content"
-                    className="object-cover object-center h-32 w-42 mt-16 hover:transition duration-200 ease-in-out hover:scale-105"
-                    src="/tsallaaerospace.png"
+                    className="object-cover object-center h-full w-full hover:transition duration-200 ease-in-out hover:scale-105"
+                    src="/careers.jpg"
                   />
                 </Link>
               </div>
               <h2 className="text-xl font-medium title-font text-white mt-5">
-                Tsalla Aerospace
+                Careers.in Job Portal
               </h2>
               <p className="text-base leading-relaxed mt-2">
-                Our project entails crafting the company&apos;s official website
-                with dynamic features, boasting a modern aesthetic and
-                innovative functionalities to ensure a seamless and engaging
-                user experience.
+                Step into a new era of job hunting with our Next.js-powered
+                portal. Effortlessly post and curate jobs while engaging with
+                compelling narratives, all secured by robust authentication and
+                precision admin controls.
               </p>
               <a
                 href="/project1"

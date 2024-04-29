@@ -29,11 +29,11 @@ const page = () => {
               Seamless Job Management:
             </p>
             <p className="mb-8  inline">
-              1. Seamless Job Management: Our Next.js-powered job portal
-              simplifies job posting and deletion processes, ensuring a seamless
-              experience for employers. With just a few clicks, jobs can be
-              effortlessly posted online and promptly removed when vacancies are
-              filled, optimizing efficiency and user satisfaction.
+              Our Next.js-powered job portal simplifies job posting and deletion
+              processes, ensuring a seamless experience for employers. With just
+              a few clicks, jobs can be effortlessly posted online and promptly
+              removed when vacancies are filled, optimizing efficiency and user
+              satisfaction.
             </p>
 
             <p className="inline text-orange-500 font-semibold">
