@@ -85,11 +85,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-<<<<<<< HEAD
-                  href="https://drive.google.com/file/d/1WJyZG2nDYBKlcRONLLBQ4sA3ZrunhKV_/view?usp=sharing"
-=======
                   href="https://drive.google.com/file/d/1WJyZG2nDYBKlcRONLLBQ4sA3ZrunhKV_/view?usp=drive_link"
->>>>>>> 558d72151bcf4058436746ac3455df66d9532a63
                   className="block py-2 px-3 text-white rounded hover:text-blue-500"
                 >
                   Resume
