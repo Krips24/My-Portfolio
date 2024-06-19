@@ -24,7 +24,7 @@ const Experience = () => {
         <p className="mb-2 font-semibold">
           IITI Drishti CPS Foundation, IIT Indore
         </p>
-        <p className="mb-2 text-sm">June - Present 2024</p>
+        <p className="mb-2 text-sm">June 2024 - Present</p>
       </div>
 
       {/* Experience-2 */}
