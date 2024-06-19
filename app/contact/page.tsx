@@ -8,6 +8,7 @@ const Contact = () => {
     email: "",
     message: "",
   });
+  
 
   const handleChange = (e: any) => {
     const { name, value } = e.target;
