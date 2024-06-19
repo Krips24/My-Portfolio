@@ -18,11 +18,22 @@ const Experience = () => {
         />
       </h2>
 
-      {/* Internship 1 */}
+      {/* Experience-1 */}
+      <div className="text-white lg:px-20 max-sm:text-justify mb-12">
+        <h3 className="text-lg font-semibold">Jr. Full Stack Developer</h3>
+        <p className="mb-2 font-semibold">
+          IITI Drishti CPS Foundation, IIT Indore
+        </p>
+        <p className="mb-2 text-sm">June - Present 2024</p>
+      </div>
+
+      {/* Experience-2 */}
       <div className="text-white lg:px-20  max-sm:text-justify">
-        <h3 className="text-lg font-semibold">Web Development Internship</h3>
-        <p className="mb-2 font-semibold">Tsalla Aerospace</p>
-        <p className="mb-2 text-sm">February 2024 - Present</p>
+        <h3 className="text-lg font-semibold">
+          Full Stack Development Internship
+        </h3>
+        <p className="mb-2 font-semibold">Tsalla Aerospace, IISc Bangalore</p>
+        <p className="mb-2 text-sm">February - May 2024</p>
         <p className="text-sm">
           During my immersive internship in web development, I took charge of
           creating the company&apos;s flagship website utilizing cutting-edge
@@ -35,26 +46,6 @@ const Experience = () => {
           a corporate work environment. This experience has significantly
           broadened my professional horizons and fortified my proficiency in the
           field.
-        </p>
-      </div>
-
-      {/* Internship 2 */}
-      <div className="text-white lg:px-20  max-sm:text-justify mt-12">
-        <h3 className="text-lg font-semibold">VLSI Design Internship</h3>
-        <p className="mb-2 font-semibold">Maven Silicon Pvt. Ltd.</p>
-        <p className="mb-2 text-sm">May - July 2023</p>
-        <p className="text-sm">
-          Throughout my internship tenure, I played a pivotal role in the
-          collaborative development of a sophisticated RISC-V processor design,
-          concentrating on crucial microarchitecture components. Employing my
-          expertise in Verilog HDL, I adeptly undertook the coding, simulation,
-          and debugging of RTL to guarantee precise and optimized functionality.
-          Demonstrating an unwavering commitment to excellence, I seamlessly
-          communicated technical progress to peers and supervisors, underscoring
-          my adept problem-solving prowess. Completing the project within the
-          designated internship timeframe underscored my capacity to deliver
-          results with efficiency and efficacy, solidifying my standing as a
-          capable and resourceful team member.
         </p>
       </div>
     </div>
