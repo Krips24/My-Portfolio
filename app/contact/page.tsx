@@ -8,7 +8,6 @@ const Contact = () => {
     email: "",
     message: "",
   });
-  
 
   const handleChange = (e: any) => {
     const { name, value } = e.target;
@@ -72,16 +71,16 @@ const Contact = () => {
               marginHeight={0}
               marginWidth={0}
               scrolling="no"
-              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Bangalore&t=&z=14&iwloc=B&output=embed"
+              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=INDORE&t=&z=14&iwloc=B&output=embed"
               style={{ filter: "grayscale(1) contrast(1.2) opacity(0.16)" }}
             />
 
-            <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md  max-sm:w-68">
+            <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md w-3/5  max-sm:w-68">
               <div className="lg:w-1/2 px-6">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   ADDRESS
                 </h2>
-                <p className="mt-1">BMT Layout, Mathikere, Bengaluru</p>
+                <p className="mt-1">IIT Indore, India</p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
