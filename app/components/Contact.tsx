@@ -30,7 +30,7 @@ const Contact = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
-      });
+      }); 
 
       if (response.ok) {
         console.log("Form submitted successfully");
