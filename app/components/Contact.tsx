@@ -9,6 +9,7 @@ const Contact = () => {
     email: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false); // New state for loading animation
 
   const handleChange = (e: any) => {
     const { name, value } = e.target;
@@ -20,6 +21,7 @@ const Contact = () => {
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
+    setIsSubmitting(true); // Start the loading animation
 
     try {
       const response = await fetch("/api/contact", {
@@ -32,17 +34,20 @@ const Contact = () => {
 
       if (response.ok) {
         console.log("Form submitted successfully");
-        // Reset form fields after successful submission if needed
+        // Reset form fields after successful submission
         setFormData({
           name: "",
           email: "",
           message: "",
         });
       } else {
+        alert("Failed to submit data");
         console.error("Failed to submit form");
       }
     } catch (error) {
       console.error("An error occurred:", error);
+    } finally {
+      setIsSubmitting(false); // End the loading animation
     }
   };
 
@@ -114,7 +119,6 @@ const Contact = () => {
                   </label>
                   <textarea
                     required
-                    typeof="text"
                     id="message"
                     name="message"
                     value={formData.message}
@@ -127,9 +131,35 @@ const Contact = () => {
                 <button
                   type="submit"
                   onClick={handleSubmit}
-                  className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 transition duration-200 rounded text-lg"
+                  disabled={isSubmitting} // Disable button when submitting
+                  className={`flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 transition duration-200 rounded text-lg ${
+                    isSubmitting ? "opacity-50 cursor-not-allowed" : ""
+                  }`}
                 >
-                  Submit
+                  {isSubmitting ? (
+                    <svg
+                      className="animate-spin h-5 w-5 mr-3 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                      />
+                      <path
+                        className="opacity-75"
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.978 7.978 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                      />
+                    </svg>
+                  ) : (
+                    "Submit"
+                  )}
                 </button>
               </div>
             </div>

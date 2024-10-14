@@ -1,5 +1,5 @@
 import Contact from "@/models/contact";
-import { connectToDB } from "@/database/db";
+import { connectToDb } from "@/database/db";
 
 export const POST = async (request: any) => {
   const { name, email, message } = await request.json();
@@ -7,7 +7,7 @@ export const POST = async (request: any) => {
   console.log(name, email, message);
 
   try {
-    await connectToDB();
+    await connectToDb();
     const contact = new Contact({
       name,
       email,
