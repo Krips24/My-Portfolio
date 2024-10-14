@@ -23,7 +23,7 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true); // Start the loading animation
 
-    try {
+    try { 
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
