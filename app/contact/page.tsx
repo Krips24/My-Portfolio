@@ -8,7 +8,7 @@ const Contact = () => {
     email: "",
     message: "",
   });
-  
+  const [isLoading, setIsLoading] = useState(false); // State to manage loading
 
   const handleChange = (e: any) => {
     const { name, value } = e.target;
@@ -20,6 +20,7 @@ const Contact = () => {
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
+    setIsLoading(true); // Set loading to true when form is submitted
 
     try {
       const response = await fetch("api/contact", {
@@ -32,7 +33,6 @@ const Contact = () => {
 
       if (response.ok) {
         console.log("Form submitted successfully");
-        // Reset form fields after successful submission if needed
         setFormData({
           name: "",
           email: "",
@@ -43,6 +43,8 @@ const Contact = () => {
       }
     } catch (error) {
       console.error("An error occurred:", error);
+    } finally {
+      setIsLoading(false); // Set loading to false after form submission
     }
   };
 
@@ -59,9 +61,10 @@ const Contact = () => {
           </h1>
         </div>
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+          {/* Map section */}
           <div
             style={{ fontFamily: "Montserrat, sans-serif" }}
-            className="max-sm:hidden  lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
+            className="max-sm:hidden lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
           >
             <iframe
               width="100%"
@@ -72,16 +75,15 @@ const Contact = () => {
               marginHeight={0}
               marginWidth={0}
               scrolling="no"
-              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Bangalore&t=&z=14&iwloc=B&output=embed"
+              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Indore&t=&z=14&iwloc=B&output=embed"
               style={{ filter: "grayscale(1) contrast(1.2) opacity(0.16)" }}
             />
-
-            <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md  max-sm:w-68">
-              <div className="lg:w-1/2 px-6">
+            <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md max-sm:w-68">
+              <div className="lg:w-31/2 px-6">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   ADDRESS
                 </h2>
-                <p className="mt-1">BMT Layout, Mathikere, Bengaluru</p>
+                <p className="mt-1">IIT Indore</p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
@@ -102,6 +104,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
+          {/* Form section */}
           <div className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
             <div className="flex relative bottom-5">
               <h1 className="text-white text-2xl text-center inline">Get in</h1>
@@ -153,7 +156,6 @@ const Contact = () => {
                   Message
                 </label>
                 <textarea
-                  typeof="text"
                   id="message"
                   name="message"
                   value={formData.message}
@@ -164,55 +166,37 @@ const Contact = () => {
               <button
                 type="submit"
                 className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 transition duration-200 rounded text-lg"
+                disabled={isLoading} // Disable button during loading
               >
-                Submit
+                {isLoading ? (
+                  <div className="flex justify-center items-center space-x-2">
+                    <svg
+                      className="animate-spin h-5 w-5 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                      ></circle>
+                      <path
+                        className="opacity-75"
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8v8H4z"
+                      ></path>
+                    </svg>
+                    <span>Submitting...</span>
+                  </div>
+                ) : (
+                  "Submit"
+                )}
               </button>
             </form>
-          </div>
-
-          {/* address for mobile */}
-          <div
-            style={{ fontFamily: "Montserrat, sans-serif" }}
-            className="lg:hidden  lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative top-12"
-          >
-            <iframe
-              width="100%"
-              height="100%"
-              title="map"
-              className="absolute inset-0"
-              frameBorder={0}
-              marginHeight={0}
-              marginWidth={0}
-              scrolling="no"
-              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Bangalore&t=&z=14&iwloc=B&output=embed"
-              style={{ filter: "grayscale(1) contrast(1.2) opacity(0.16)" }}
-            />
-
-            <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md  max-sm:w-68">
-              <div className="lg:w-1/2 px-6">
-                <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                  ADDRESS
-                </h2>
-                <p className="mt-1">BMT Layout, Mathikere, Bangalore</p>
-              </div>
-              <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                  EMAIL
-                </h2>
-                <a
-                  href="mailto:krapansh.work@gmail.com"
-                  className="text-indigo-400 leading-relaxed"
-                >
-                  krapansh.work@gmail.com
-                </a>
-                <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                  PHONE
-                </h2>
-                <a href="tel:+91 6281284310" className="leading-relaxed">
-                  +91 6281284310
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
