@@ -20,11 +20,23 @@ const Experience = () => {
 
       {/* Experience-1 */}
       <div className="text-white lg:px-20 max-sm:text-justify mb-12">
-        <h3 className="text-lg font-semibold">Jr. Full Stack Developer</h3>
+        {" "}
+        <h3 className="text-lg font-semibold">Jr. Full Stack Developer</h3>{" "}
         <p className="mb-2 font-semibold">
-          IITI Drishti CPS Foundation, IIT Indore
-        </p>
-        <p className="mb-2 text-sm">June 2024 - Present</p>
+          {" "}
+          IITI Drishti CPS Foundation, IIT Indore{" "}
+        </p>{" "}
+        <p className="mb-2 text-sm">June 2024 - Present</p>{" "}
+        <p className="text-sm">
+          {" "}
+          As a Jr. Full Stack Developer, I contribute to the development and
+          maintenance of innovative web applications, focusing on clean,
+          efficient, and scalable code. My role involves working extensively
+          with the MERN stack, optimizing performance, and integrating complex
+          features to deliver seamless user experiences. I collaborate with
+          cross-functional teams to ensure project goals align with user and
+          market needs, driving impactful solutions from concept to deployment.{" "}
+        </p>{" "}
       </div>
 
       {/* Experience-2 */}

@@ -26,12 +26,14 @@ const page = () => {
               </svg>
             </div>
             <p className="leading-relaxed text-lg text-gray-200 my-5">
-              I&apos;m a final year student at Vellore Institute of Technology,
-              Bhopal, pursuing a B.Tech degree in Electronics and Communication
-              Engineering (ECE). I am passionate about technology and have a
-              strong inclination toward the field of software development. With
-              a keen interest in web development, I have gained practical
-              experience in designing and building websites.
+              {" "}
+              I am passionate about technology with a strong inclination toward
+              software development. Over the years, I have honed my skills in
+              web development, gaining hands-on experience in designing and
+              building user-friendly, responsive websites and applications. I am
+              driven by a commitment to crafting efficient and scalable
+              solutions that meet real-world challenges and enhance user
+              experiences.{" "}
             </p>
             <p className="leading-relaxed text-lg text-gray-200 my-5">
               Skills: I excel in Full Stack Development, boasting a versatile
