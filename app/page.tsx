@@ -98,7 +98,7 @@ const Home = () => {
       {/* About section */}
       <section
         style={{ fontFamily: "Montserrat, sans-serif" }}
-        className="text-white bg-black body-font relative max-sm:top-60  max-sm:mb-60"
+        className="text-white bg-black body-font relative max-sm:top-40  max-sm:mb-60"
       >
         <div className="container px-5 py-12 mx-auto">
           <h1 className="text-center text-4xl text-orange-500 my-3">
