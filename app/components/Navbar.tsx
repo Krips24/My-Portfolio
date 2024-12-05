@@ -4,8 +4,11 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import "@fontsource/montserrat";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const pathName = usePathname();
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -67,42 +70,63 @@ const Navbar = () => {
           >
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
               <li>
-                <a
+                <Link
                   href="/"
-                  className="block py-2 px-3  rounded md:bg-transparent text-blue-500"
-                  aria-current="page"
+                  // className="block py-2 px-3 rounded md:bg-transparent text-blue-500"
+                  // aria-current="page"
+                  className={
+                    pathName === "/"
+                      ? "block py-2 px-3 rounded md:bg-transparent text-blue-500"
+                      : "block py-2 px-3 text-white rounded hover:text-blue-500"
+                  }
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/projects"
-                  className="block py-2 px-3 text-white rounded hover:text-blue-500"
+                  className={
+                    pathName === "/projects"
+                      ? "block py-2 px-3 rounded md:bg-transparent text-blue-500"
+                      : "block py-2 px-3 text-white rounded hover:text-blue-500"
+                  }
                 >
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
                 <Link
                   href="https://drive.google.com/file/d/1JHX1RCrd3AVCvXKPYZPl5Bx330tzQ_0Y/view"
-                  className="block py-2 px-3 text-white rounded hover:text-blue-500"
+                  className={
+                    pathName === "/resume"
+                      ? "block py-2 px-3 rounded md:bg-transparent text-blue-500"
+                      : "block py-2 px-3 text-white rounded hover:text-blue-500"
+                  }
                 >
                   Resume
                 </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/about"
-                  className="block py-2 px-3 text-white rounded hover:text-blue-500"
+                  className={
+                    pathName === "/about"
+                      ? "block py-2 px-3 rounded md:bg-transparent text-blue-500"
+                      : "block py-2 px-3 text-white rounded hover:text-blue-500"
+                  }
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
                 <a
                   href="/contact"
-                  className="block py-2 px-3 text-white rounded hover:text-blue-500"
+                  className={
+                    pathName === "/contact"
+                      ? "block py-2 px-3 rounded md:bg-transparent text-blue-500"
+                      : "block py-2 px-3 text-white rounded hover:text-blue-500"
+                  }
                 >
                   Contact
                 </a>
