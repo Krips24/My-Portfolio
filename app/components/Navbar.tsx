@@ -70,7 +70,7 @@ const Navbar = () => {
           >
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
               <li>
-                <Link
+                <a
                   href="/"
                   // className="block py-2 px-3 rounded md:bg-transparent text-blue-500"
                   // aria-current="page"
@@ -81,10 +81,10 @@ const Navbar = () => {
                   }
                 >
                   Home
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="/projects"
                   className={
                     pathName === "/projects"
@@ -93,10 +93,10 @@ const Navbar = () => {
                   }
                 >
                   Projects
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="https://drive.google.com/file/d/1JHX1RCrd3AVCvXKPYZPl5Bx330tzQ_0Y/view"
                   className={
                     pathName === "/resume"
@@ -105,10 +105,10 @@ const Navbar = () => {
                   }
                 >
                   Resume
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="/about"
                   className={
                     pathName === "/about"
@@ -117,7 +117,7 @@ const Navbar = () => {
                   }
                 >
                   About
-                </Link>
+                </a>
               </li>
               <li>
                 <a
