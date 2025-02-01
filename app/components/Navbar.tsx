@@ -30,7 +30,7 @@ const Navbar = () => {
               height={40}
               alt="Flowbite Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
               Krapansh
             </span>
           </a>
